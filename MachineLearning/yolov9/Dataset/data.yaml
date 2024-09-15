@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 11
+names: ['null','minor','negligible','superficial','low_impact','moderate','significant','serious','critical', 'severe','fatal']
+
+roboflow:
+  workspace: aiml-wq5vw
+  project: accident-severity-detection-dataset-k3vgi
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/aiml-wq5vw/accident-severity-detection-dataset-k3vgi/dataset/2
