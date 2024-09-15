@@ -1,0 +1,29 @@
+#Video Files
+Video/
+
+#Environment Files
+.env
+
+#Node Modules
+node_modules/
+
+#Compiled Files
+dist/
+
+#Logs
+logs/
+
+#OS Files
+.DS_Store
+Thumbs.db
+
+#Python Files
+__pycache__/
+*.pyc
+
+#IDE Files
+.idea/
+.vscode/
+
+#Virtual Environment
+venv/

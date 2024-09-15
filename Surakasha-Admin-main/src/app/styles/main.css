@@ -1,0 +1,52 @@
+.text-animate {
+    background-image: linear-gradient(to left, #ffddb5, #fffb8c, #b5ffef, #ffb0fe, #ffb6b6, #b1ffdf, #ffc7c7);
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 80px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(186, 255, 248);
+    background-size: 200%;
+    animation: text-animate 10s linear infinite;
+}
+
+.text-animate2 {
+    background-image: linear-gradient(to left, #b5ffe4, #d5ff8c, #b5ffef, #95ff8f, #e4ffb6, #b7ffb1, #daffbd);
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 80px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(186, 255, 248);
+    background-size: 200%;
+    animation: text-animate 10s linear infinite;
+}
+
+@keyframes text-animate {
+    0% {
+        background-position: 200% 0;
+    }
+
+    100% {
+        background-position: -200% 0;
+    }
+}
+.mobile {
+    display: none !important;
+}
+
+.desktop {
+    display: contents;
+}
+
+@media screen and (max-width: 768px) {
+    .mobile {
+        display: block !important;
+    }
+
+    .desktop {
+        display: none !important;
+    }
+}
