@@ -2,7 +2,16 @@
 
 ## Official Documentation for Suraksha - The Incident Management Platform - Hack The Mountains 5.0
 We have hosted our documentation on Streamlit as well.
-Docs: (https://suraksha-docs.streamlit.app/)
+Docs: [Streamlit Documentation](https://suraksha-docs.streamlit.app/)
+
+## Deployed Application
+- [User Interface](http://ec2-52-64-199-113.ap-southeast-2.compute.amazonaws.com:3000/signup)
+- [Admin Dashboard](http://ec2-3-25-95-188.ap-southeast-2.compute.amazonaws.com:3000/login)
+
+### Testing Details:
+Sample Admin Credentials:
+- Email: admin@gmail.com
+- Password: admin123
 
 ## 🚀 Welcome to Suraksha!
 **Suraksha** is an innovative platform designed to address a critical issue: the high rate of incidents like road accidents, physical crime, and more in India. For example, every day, over 1,200 road incidents occur, leading to numerous injuries and fatalities. Suraksha provides a comprehensive solution for recognizing, monitoring, and reporting all kinds of incidents in real-time, making it easier for both authorities and civilians to respond swiftly and effectively.
